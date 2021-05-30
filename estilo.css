@@ -1,0 +1,106 @@
+body{
+
+    margin:0px;
+    font-family: 'IBM Plex Serif', serif;
+
+    font-size: 1.2em;
+}
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 2px;
+    position: fixed;
+    width: 100%;
+   
+    
+}
+
+.menu {
+
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+    margin: 12px;
+    display: block;    
+    padding: 2px;
+ 
+}
+
+li a:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+.showcase {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    background:url(code.webp) center center/cover;
+    background-color: rgba(3, 160, 98, 0.4);
+    background-blend-mode: color;
+}
+
+img{
+
+
+    background: none;
+    width: 15%;
+    padding-left: 35%;
+}
+
+#redpill {
+
+    width: 13%;
+    padding-left: 36%;
+}
+
+#sistema {
+
+    width: 80vh;
+    height: 80vh;
+ 
+
+p{
+    display: flex;
+    
+    float: right;
+    justify-content: space-between;
+
+
+}
+
+#movie1 {
+    display: flex;
+    width: 14%;
+    padding-top: 10%;
+    margin-right: 35%;
+  
+    
+}
+
+p {
+    font-size: 80%;
+   
+    text-shadow: -5px 5px 10px rgba(214, 224, 211, 0.884);
+   
+   
+
+}
+
+
