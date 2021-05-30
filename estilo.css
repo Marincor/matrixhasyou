@@ -76,14 +76,7 @@ img{
     height: 80vh;
  
 
-p{
-    display: flex;
-    
-    float: right;
-    justify-content: space-between;
 
-
-}
 
 #movie1 {
     display: flex;
@@ -98,7 +91,10 @@ p {
     font-size: 80%;
    
     text-shadow: -5px 5px 10px rgba(214, 224, 211, 0.884);
-   
+    display: flex;
+    float: right;
+    justify-content: space-between;
+
    
 
 }
