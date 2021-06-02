@@ -1,5 +1,6 @@
 body {
-   
+    font-family: 'IBM Plex Serif';
+    font-weight: lighter;
     margin: 0;
     background-color: blue;
 
@@ -55,6 +56,7 @@ h1 a:hover {
     background: black;
     color: #003B00;
 }
+
 .showcase {
 
     height: 100vh;
@@ -63,20 +65,31 @@ h1 a:hover {
     justify-content: center;
     flex-direction: column;
     color: white;
-    background:url(showcase.webp) center center/cover;
-    background-color: rgba(0,0,0,0.4);
-    background-blend-mode: color;
+    background:url(code.webp) center center/cover;
 
 }
 
 footer {
+    background-color: black;
     color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:absolute;
 
-    display: flex;
 
-    margin: auto;
-    width: 60%;
-    height: 100%;
 }
- 
+
+
+#warner {
+    float: right;
+    padding:5px;
+    width: 5%;
+    color:  blanchedalmond;
+    background: black;
+}
+
+h6 {
+    font-size: 0.5em;
+    float: right;
 }
