@@ -1,48 +1,60 @@
-body{
+body {
+   
+    margin: 0;
+    background-color: blue;
 
-    margin:0px;
-    font-family: 'IBM Plex Serif', serif;
-
-    font-size: 1.2em;
+ 
+    
 }
+
 .header {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-left: 2px;
     position: fixed;
-    width: 100%;
+    background-color: black;  
+    width: 100%; 
+   
+}
+
+h1 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+ul {
+    float: right;
+    display: block;
+    padding: 20px;
+    padding-right: 100px;
+    
    
     
 }
 
-.menu {
-
-    display: flex;
+li {
     list-style: none;
-    
-    
-}
-
-a {
-
-    text-decoration: none;
-    color: white;
-    margin: 12px;
-    display: block;    
-    padding: 2px;
- 
+    display: inline;
+    padding-right: 5px;
+    margin: 5px;
 }
 
 li a:hover {
 
-    background-color: white;
+    background: white;
     color: black;
 }
 
+h1 a:hover {
 
+    background: black;
+    color: #003B00;
+}
 .showcase {
 
     height: 100vh;
@@ -50,58 +62,21 @@ li a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color:white;
-    background:url(code.webp) center center/cover;
-    background-color: rgba(3, 160, 98, 0.4);
+    color: white;
+    background:url(showcase.webp) center center/cover;
+    background-color: rgba(0,0,0,0.4);
     background-blend-mode: color;
-}
-
-img{
-
-
-    background: none;
-    width: 15%;
-    padding-left: 35%;
-}
-
-#redpill {
-
-    width: 13%;
-    padding-left: 36%;
-}
-
-#sistema {
-
-    width: 80vh;
-    height: 80vh;
- 
-
-
-
-#movie1 {
-    display: flex;
-    width: 14%;
-    padding-top: 10%;
-    margin-right: 35%;
-  
-    
-}
-
-p {
-    font-size: 80%;
-   
-    text-shadow: -5px 5px 10px rgba(214, 224, 211, 0.884);
-    display: flex;
-    float: right;
-    justify-content: space-between;
-
-   
 
 }
 
 footer {
+    color: white;
 
-   background-color: black;
+    display: flex;
 
+    margin: auto;
+    width: 60%;
+    height: 100%;
 }
-
+ 
+}
