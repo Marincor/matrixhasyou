@@ -20,6 +20,9 @@ h1 {
     align-items: center;
     justify-content: center;
     padding-left: 10px;
+    
+        text-shadow: 4px 4px 4px #aaa;
+    
 }
 
 a {
