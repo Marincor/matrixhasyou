@@ -69,7 +69,53 @@ h1 a:hover {
 
 }
 
+.caixa-decision {
+    width: 940px;
+    margin-top: 60%;
+    margin-bottom: 50%;
 
+}
+
+.caixa-decision li a {
+
+display: block;
+   
+}
+
+
+
+.blue {
+  position: absolute;  
+  display: inline-block;
+  width: 10%;
+  left: 40%;
+  top: 30%;
+
+}
+
+.bluequote {
+   text-align: center;
+   font-size: 100%;
+   text-shadow: 2px  2px 5px rgb(124, 163, 116);
+
+}
+
+.red {
+    position: absolute;  
+    display: inline-block;
+    width: 8%;
+    left: 41%;
+    top: 60%;
+  
+  }
+  
+  .redquote {
+      margin-top: 120px;
+     text-align: center;
+     font-size: 100%;
+     text-shadow: 2px  2px 5px rgb(101, 109, 99);
+  
+  }
 
 footer {
     background-color: black;
