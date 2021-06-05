@@ -161,3 +161,11 @@ h6 {
     font-size: 0.5em;
     float: right;
 }
+
+
+
+.logo-filme {
+    display: inline;
+    position: absolute;
+    left: 35vw;
+}
