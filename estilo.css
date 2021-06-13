@@ -308,3 +308,8 @@ span {
   padding-bottom: 30px;
 
 }
+
+.equilibrium:hover {
+
+  box-shadow: 15px 15px 100px rgb(226, 231, 226);
+}
