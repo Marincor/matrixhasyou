@@ -59,7 +59,6 @@ h1 a:hover {
 
 .caixa-decision {
   width: 940px;
-  position: ;
   margin: 30px;
   display: inline-block;
   position: flex;
@@ -173,6 +172,8 @@ h6 {
   font-size: 4em;
   font-weight: bold;
   margin-bottom: 100px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .filmeum {
@@ -194,11 +195,10 @@ h6 {
   box-shadow: -2px -2px 50px rgb(57, 167, 81);
 }
 
-section h1 {
+section h2 {
   text-shadow: 2px 2px 5px rgb(57, 167, 81);
   font-size: 2em;
   font-weight: bold;
-
   margin-left: 30px;
 }
 
@@ -227,4 +227,84 @@ section p {
 span {
 
     height: 100vh;
+}
+
+
+/* references */
+
+.caixa-referencia {
+
+  
+  margin:10%;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.caixa-materiaprima {
+
+  width: 50%;
+  border-style: double;
+  border-color: darkgrey;
+  padding-bottom: 30px;
+}
+
+.referencia-tituloprincipal {
+
+  
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 115px;
+}
+
+.caixa-referencia p {
+  display: flex;
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 100px;
+ 
+}
+
+.referencia-conteudo {
+
+ 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.fantasma {
+
+  width: 40%;
+  margin: 40px 0 40px 0;
+}
+
+.akira {
+
+  width: 40%;
+  margin-top: 10px;
+}
+
+.fantasma:hover {
+
+  box-shadow: 15px 15px 100px rgb(226, 231, 226);
+}
+
+.akira:hover {
+
+  box-shadow: 15px 15px 100px rgb(226, 231, 226);
+}
+
+.caixa-copyofa{
+
+  border-style: double;
+  border-color: darkgrey;
+  padding-bottom: 30px;
+
 }
