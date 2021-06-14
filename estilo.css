@@ -67,60 +67,52 @@ h1 a:hover {
 }
 
 .caixa-decision a {
-    background: none;
-    text-decoration: overline;
-    width: 0px;
-   
+  background: none;
+  text-decoration: overline;
+  width: 0px;
 }
-
 
 .blue {
-    margin-top: 200px;
-    margin-left: 35%;
-    position: absolute;
-    height: 100px;
-    top: 1px;
-    left: 80px;
-
+  margin-top: 200px;
+  margin-left: 35%;
+  position: absolute;
+  height: 100px;
+  top: 1px;
+  left: 80px;
 }
-.blue:hover{
-    margin-top: 200px;
-    position: absolute;
-    height: 200px;
-   
+.blue:hover {
+  margin-top: 200px;
+  position: absolute;
+  height: 200px;
 }
 
 .bluequote {
-
-    margin-top: 220px;
-    text-shadow: 2px 2px 3px grey;
+  margin-top: 220px;
+  text-shadow: 2px 2px 3px grey;
 }
 
 .red {
-    margin-top: 100px;
-    margin-left: 35%;
-    height: 100px;
-    left: 100px;
-    position: absolute;
-    bottom: 100px;
+  margin-top: 100px;
+  margin-left: 35%;
+  height: 100px;
+  left: 100px;
+  position: absolute;
+  bottom: 100px;
 }
 
 .red:hover {
-    margin-top: 100px;
-    margin-left: 35%;
-    height: 200px;
-    left: 100px;
-    position: absolute;
-    bottom: 100px;
+  margin-top: 100px;
+  margin-left: 35%;
+  height: 200px;
+  left: 100px;
+  position: absolute;
+  bottom: 100px;
 }
 
-
-.redquote{
-    margin-left: 50px;
-    margin-top: 160px;
+.redquote {
+  margin-left: 50px;
+  margin-top: 160px;
 }
-
-
 
 .caixa-sistema {
   width: 1080px;
@@ -225,17 +217,13 @@ section p {
 }
 
 span {
-
-    height: 100vh;
+  height: 100vh;
 }
-
 
 /* references */
 
 .caixa-referencia {
-
-  
-  margin:10%;
+  margin: 10%;
   width: 80vw;
   display: flex;
   flex-direction: row;
@@ -243,7 +231,6 @@ span {
 }
 
 .caixa-materiaprima {
-
   width: 50%;
   border-style: double;
   border-color: darkgrey;
@@ -251,8 +238,6 @@ span {
 }
 
 .referencia-tituloprincipal {
-
-  
   width: 30vw;
   display: flex;
   flex-direction: column;
@@ -266,50 +251,103 @@ span {
   padding: 10px;
   margin: 10px;
   padding-top: 100px;
- 
 }
 
 .referencia-conteudo {
-
- 
   width: 100%;
   display: flex;
   flex-direction: row;
-
-
 }
 
 .fantasma {
-
   width: 40%;
   margin: 40px 0 40px 0;
 }
 
 .akira {
-
   width: 40%;
   margin-top: 10px;
 }
 
 .fantasma:hover {
-
   box-shadow: 15px 15px 100px rgb(226, 231, 226);
 }
 
 .akira:hover {
-
   box-shadow: 15px 15px 100px rgb(226, 231, 226);
 }
 
-.caixa-copyofa{
-
+.caixa-copyofa {
   border-style: double;
   border-color: darkgrey;
   padding-bottom: 30px;
-
 }
 
 .equilibrium:hover {
-
   box-shadow: 15px 15px 100px rgb(226, 231, 226);
+}
+
+.caixa-extras {
+  width: 100%;
+  height: 100vh;
+  margin: 3% 5% 10% 5%;
+}
+
+.conteudo-extras {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-width: 20%;
+  border-color: rgb(185, 214, 186);
+  border-style: double;
+}
+
+.conteudo-extras h2,
+p {
+  margin-left: 10px;
+}
+
+.conteudo-extras p {
+  line-height: 40px;
+}
+
+.conteudo-extras ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-extras li::before {
+  content: "🞓";
+}
+
+.contato {
+  width: 50vw;
+
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.icon1 {
+  background-color: rgb(211, 223, 211);
+  width: 10vw;
+  margin-right: 20px;
+  border-width: 1%;
+  border-color: rgb(144, 185, 150);
+  border-style: double;
+  padding: 5px;
+  border-radius: 5%;
+}
+
+.icon2 {
+  background-color: rgb(211, 223, 211);
+  border-width: 1%;
+  border-color: rgb(144, 185, 150);
+  border-style: double;
+  padding: 3px;
+  width: 6vw;
+  border-radius: 5%;
 }
